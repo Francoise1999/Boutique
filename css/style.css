@@ -75,6 +75,8 @@
 }
 
 /*********RIGHT SIDE********/
+
+    /*******TOP BAR*******/
 .top_bar input[name="search"]{
     margin: 20px 0;
     padding: 5px 10px;
@@ -82,8 +84,24 @@
     border: none;
 }
 
+
 .right_side .btn-panier{
     background-color: #fff;
     padding: 2em;
     border: none;
+}
+
+.right_side .user{
+    margin-left: 20px;
+}
+
+.right_side img{
+    width: 40px;
+    margin: 10px 10px 0 0;
+    border-radius: 50%;
+}
+
+.top_bar .user{
+    text-decoration: none;
+    color: #000;
 }
