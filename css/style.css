@@ -77,6 +77,12 @@
 /*********RIGHT SIDE********/
 
     /*******TOP BAR*******/
+
+.top_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .top_bar input[name="search"]{
     margin: 20px 0;
     padding: 5px 10px;
@@ -85,19 +91,17 @@
 }
 
 
-.right_side .btn-panier{
+.top_bar .btn-panier{
     background-color: #fff;
     padding: 2em;
     border: none;
 }
 
-.right_side .user{
-    margin-left: 20px;
-}
 
-.right_side img{
+
+.top_bar img{
     width: 40px;
-    margin: 10px 10px 0 0;
+    /* margin: 10px 10px 0 0; */
     border-radius: 50%;
 }
 
