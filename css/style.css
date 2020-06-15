@@ -46,7 +46,7 @@
     color: #000;
 }
 
-.menu li i.fas{
+.menu li i.fa-bolt{
     color: #fae33c;
 }
 
@@ -108,4 +108,20 @@
 .top_bar .user{
     text-decoration: none;
     color: #000;
+}
+
+    /*********CENTER BAR*********/
+.center_bar a{
+    text-decoration: none;
+    color: #000;
+}
+
+.center_bar .fa-bolt{
+    color: #fae33c;
+    margin-right: 10px;
+}
+
+.center_bar .new-in{
+    font-size: 25px;
+    font-weight: bold;
 }
