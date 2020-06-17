@@ -128,4 +128,13 @@
 .center_bar .new-in{
     font-size: 25px;
     font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    border: none;
+}
+
+.center_bar a{
+    border: 1px solid #9e9797;
+    border-radius: 5px;
+    padding: 1em;
 }
