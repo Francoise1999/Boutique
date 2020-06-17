@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Bellota', cursive;
 }
 
 /********GENERAL************/
@@ -86,7 +87,7 @@
 .top_bar input[name="search"]{
     margin: 20px 0;
     padding: 5px 10px;
-    width: 40%;
+    width: 60%;
     border: none;
 }
 
@@ -115,6 +116,9 @@
 }
 
     /*********CENTER BAR*********/
+.center_bar{
+    padding-bottom: 10px;
+}
 .center_bar a{
     text-decoration: none;
     color: #000;
@@ -129,12 +133,27 @@
     font-size: 25px;
     font-weight: bold;
     display: inline-block;
-    width: 50%;
+    width: 40%;
     border: none;
 }
 
 .center_bar a{
     border: 1px solid #9e9797;
     border-radius: 5px;
-    padding: 1em;
+    padding: 12px 15px;
+    margin: 0 5px;
+}
+
+.center_bar .fas{
+    margin: 0 10px;
+}
+
+/*********MAIN BAR*********/
+.main-bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-bar img{
+    padding: 5px;
 }
