@@ -154,6 +154,34 @@
     flex-wrap: wrap;
 }
 
-.main-bar img{
-    padding: 5px;
+.main-bar .img1{
+    background-image: url("https://via.placeholder.com/350x150");
+}
+
+.main-bar .img2{
+    background-image: url("https://via.placeholder.com/150x300");
+}
+
+.main-bar .img3{
+    background-image: url("https://via.placeholder.com/150x300");
+}
+
+.main-bar .img4{
+    background-image: url("https://via.placeholder.com/350x150");
+}
+
+.main-bar .img5{
+    background-image: url("https://via.placeholder.com/150x300");
+}
+
+.main-bar .img6{
+    background-image: url("https://via.placeholder.com/150x300");
+}
+
+.main-bar .img7{
+    background-image: url("https://via.placeholder.com/350x150");
+}
+
+.main-bar .img8{
+    background-image: url("https://via.placeholder.com/350x150");
 }
