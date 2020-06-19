@@ -217,18 +217,26 @@
     background-repeat: no-repeat;
 }
 
-/*.main-bar .img5{*/
-/*    background-image: url("https://via.placeholder.com/150x300");*/
-/*}*/
+.main-bar .img5{
+    background-image: url("../img/person-wearing-yellow-shoes-1335463.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
-/*.main-bar .img6{*/
-/*    background-image: url("https://via.placeholder.com/150x300");*/
-/*}*/
+.main-bar .img6{
+    background-image: url("../img/photo-of-sneakers-on-white-background-2529148.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
-/*.main-bar .img7{*/
-/*    background-image: url("https://via.placeholder.com/350x150");*/
-/*}*/
+.main-bar .img7{
+    background-image: url("../img/black-framed-eyeglasses-on-white-jacket-and-blue-denim-934070.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
-/*.main-bar .img8{*/
-/*    background-image: url("https://via.placeholder.com/350x150");*/
-/*}*/
+.main-bar .img8{
+    background-image: url("../img/accessory-clothes-clothing-fashion-179909.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
