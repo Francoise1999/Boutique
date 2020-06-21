@@ -160,7 +160,7 @@
 }
 
 .main-bar .colunm a {
-    background-color: red;
+    /* background-color: red; */
     margin: 7px;
     border-radius: 10px;
 }
@@ -237,6 +237,54 @@
 
 .main-bar .img8{
     background-image: url("../img/accessory-clothes-clothing-fashion-179909.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bar .img9{
+    background-image: url("../img/men-s-gray-and-black-button-up-shirt-on-mannequin-1086711.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bar .img10{
+    background-image: url("../img/black-casual-classic-clothes-292999.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bar .img11{
+    background-image: url("../img/woman-in-blue-and-white-plaid-cardigan-holding-green-and-red-932405.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bar .img12{
+    background-image: url("../img/woman-in-peach-color-and-red-floral-sweatshirt-holding-gray-794062.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bar .img13{
+    background-image: url("../img/woman-in-gray-blazer-stands-on-gray-concrete-floor-914668.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bar .img14{
+    background-image: url("../img/brown-bag-on-top-of-stool-with-textiles-1502216.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bar .img15{
+    background-image: url("../img/woman-sitting-on-chair-while-leaning-on-table-871494.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bar .img16{
+    background-image: url("../img/close-up-of-shoes-and-bag-336372.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
