@@ -191,6 +191,8 @@
 
 .main-bar .vertical a {
     width: 50%;
+    position: relative;
+    transition: all 1s ease-out;
 }
 
 .main-bar .img1{
@@ -288,3 +290,49 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+.heart-btn {
+    width: auto;
+    margin: 10px;
+    border-radius: 50%;
+    outline: unset;
+    border: 0;
+    box-shadow: 0px 0px 10px #333;
+    float: right;
+}
+
+.heart-btn .fa-heart {
+    padding: 15px;
+    font-size: 20px;
+}
+.heart-btn .fas.fa-heart {
+    display: none;
+    color: red;
+}
+
+.heart-btn:hover .far.fa-heart {
+    display: none;
+}
+.heart-btn:hover .fas.fa-heart {
+    display: block;
+}
+
+.text-vertical {
+    position: absolute;
+    bottom: -30px;
+    background: rgba(255,255,255,0.5);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 30px;
+    text-align: center;
+    color: #333333;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.main-bar .vertical a:hover .text-vertical{
+    opacity: 1;
+    bottom: 0px;
+}
+
