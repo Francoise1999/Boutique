@@ -24,6 +24,9 @@
 
 
 /**********LEFT SIDE********/
+.logo img{
+    width: 80px;
+}
 .brand {
     color: #000000;
     text-decoration: none;
@@ -73,6 +76,14 @@
 
 .menu li i.fa-gem{
     color: #00a4ff;
+}
+
+.menu li:hover{
+    transform: scale(1.2);
+    background-color: rgba(167, 154, 154, 0.5);
+    padding-left: 8px;
+    transition: 0.1s;
+    border-radius: 5px;
 }
 
 /*********RIGHT SIDE********/
