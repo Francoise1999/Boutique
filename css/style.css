@@ -43,6 +43,9 @@
 
 .menu li i {
     padding-right: 10px;
+    padding-right: 10px;
+    width: 7%;
+    text-align: center;
 }
 
 .menu li a{
@@ -115,20 +118,31 @@
     width: 40px;
     /* margin: 10px 10px 0 0; */
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 .top_bar .user{
     text-decoration: none;
     color: #000;
+    display: flex;
+    align-items: center;
 }
 
 .top_bar .left_topbar{
     width: 60%;
 }
 
+.top_bar .right_topbar{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    padding: 15px;
+}
     /*********CENTER BAR*********/
 .center_bar{
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
 }
 .center_bar a{
     text-decoration: none;
@@ -146,6 +160,16 @@
     display: inline-block;
     width: 40%;
     border: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.center_bar .items_center_bar{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5px;
 }
 
 .center_bar .new-in:hover{
@@ -203,9 +227,23 @@
     display: flex;
     flex-direction: column;
 }
+.main-bar .horizontal .bloc-horizontal{
+    height:50%;
+    position: relative;
+    box-sizing: border-box;
+    margin:7px;
+}
 
 .main-bar .horizontal a {
-    height: 50%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all .5s;
 }
 
 .main-bar .colunm.vertical {
@@ -375,4 +413,29 @@
     opacity: 1;
     bottom: 0px;
 }
+
+/*********************TEXT HORIZONTAL*****************/
+
+.main-bar .horizontal .text-horizontal{
+    visibility: hidden;
+    color: #fff;
+    font-size: 30px;
+    opacity:0;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s;
+}
+.main-bar .horizontal .bloc-horizontal:hover .text-horizontal{
+    visibility: visible;
+    opacity:1;
+}
+
+.main-bar .horizontal .bloc-horizontal:hover a{
+    filter: brightness(0.5);
+}
+
 
