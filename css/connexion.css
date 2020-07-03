@@ -16,10 +16,11 @@ body{
 }
 
 .main{
-    padding: 30px;
+    padding: 10px 30px;
     border: 0;
     border-radius: 10px;
-    width: 30%;
+    width: 400px;
+    height: 500px;
     margin: 0 auto;
     background-color: rgba(99, 94, 98, 0.5);
     
@@ -34,11 +35,13 @@ body{
 }
 
 .username, .password{
-    margin: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 .main i{
-    width: 10%; 
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .username input, .password input{
@@ -46,6 +49,8 @@ body{
     font-size: 18px;
     border: 0;
     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 93%;
 }
 
 .remember-div{
@@ -57,10 +62,10 @@ input[type="submit"]{
     border: 0px;
     font-size: 18px;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: white;
     margin: 0 auto;
-    width: 30%;
+    width: 100%;
     text-align: center;
 }
 
