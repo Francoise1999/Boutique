@@ -172,12 +172,6 @@
     padding-right: 5px;
 }
 
-.center_bar .new-in:hover{
-    background-color: rgba(167, 154, 154, 0.5);
-    transition: 0.1s;
-    border-radius: 5px;
-}
-
 .center_bar a{
     border: 1px solid #9e9797;
     border-radius: 5px;
@@ -189,12 +183,6 @@
     margin: 0 10px;
 }
 
-.center_bar a:hover{
-    background-color: rgba(167, 154, 154, 0.5);
-    transition: 0.1s;
-    border-radius: 5px;
-    border: 1px solid rgba(167, 154, 154, 0.5);
-}
 
 /*********MAIN BAR*********/
 .main-bar{
