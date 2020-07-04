@@ -9,6 +9,8 @@
 body{
     background-image: url("../img/woman-holding-two-white-and-beige-shopping-paper-bags-in-974911.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .logo img{
@@ -23,7 +25,9 @@ body{
     height: 500px;
     margin: 0 auto;
     background-color: rgba(99, 94, 98, 0.5);
-    
+    box-shadow: 0px 1px 5px black;
+    position: relative;
+    top: 18%;
 }
 
 
@@ -35,27 +39,28 @@ body{
 }
 
 .username, .password{
-    
-    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
     width: 100%;
-}
-
-.main i{
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .username input, .password input{
     padding: 4px 15px;
     font-size: 18px;
-    border: 0;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.2);
-    width: 93%;
+    border: 0;;
+    border-bottom: 1px solid black;
+    background-color: rgba(70, 66, 69, 0.1);
+    width: 92%;
+    color: black;
 }
 
+.username i, .password i{
+    font-size: 19px;
+    padding-right: 1px;
+}
 .remember-div{
     font-size: 18px;
     padding: 10px;
+    margin: 10px 0;
 }
 
 input[type="submit"]{
@@ -63,15 +68,58 @@ input[type="submit"]{
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgba(252, 85, 188, 0.3);
     margin: 0 auto;
     width: 100%;
     text-align: center;
+    color: white;
 }
 
-.f-pass a, .or, .create-a a{
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+    transition: 1.3s;
+    text-decoration: underline;
+}
+
+.or{
+    color: rgb(68, 65, 65);
+}
+
+.f-pass, .or, .create-a{
     margin: 10px 0;
     text-align: center;
-    color: white;
     font-size: 18px;
+}
+
+.f-pass a:hover, .create-a a:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+.f-pass a, .create-a a{
+    color: #000;
+}
+
+
+.social{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.social i{
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.social i:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.social i:active{
+    color: white;
+    transition: 0s;   
 }
