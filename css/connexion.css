@@ -73,6 +73,7 @@ input[type="submit"]{
     width: 100%;
     text-align: center;
     color: white;
+    outline: unset;
 }
 
 input[type="submit"]:hover{
@@ -81,6 +82,7 @@ input[type="submit"]:hover{
     transition: 1.3s;
     text-decoration: underline;
 }
+
 
 .or{
     color: rgb(68, 65, 65);
