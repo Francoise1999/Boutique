@@ -103,23 +103,29 @@ input[type="submit"]:hover{
 
 
 .social{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     position: relative;
     top: 30%;
+    padding-top: 60px;
 }
 
 .social i{
     margin: 0 15px;
-    padding: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    /* background-color: #fff;
+    color: #000; */
 }
 
+
+
 .social i:hover{
-    transform: rotate(360deg);
-    transition: 1s;
+    transform: translate(0, -20px);
+    transition: 0.1s;
 }
 
 .social i:active{
     color: white;
-    transition: 0s;   
+    transition: 0s;
 }
