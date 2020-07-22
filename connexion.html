@@ -11,14 +11,14 @@
 <body>
     <div class="main">
         <img src="./img/shopping-1400845_640.png" alt="">
-        <form class="sing-in">
+        <form class="sing-in" method="post" action="login.php">
             <div class="username">
                 <i class="fas fa-user-alt"></i>
-            <input type="text" name="username" id="username" placeholder="username">
+            <input type="text" name="username" id="username" placeholder="username" required>
             </div>
             <div class="password">
                  <i class="fas fa-lock"></i>
-            <input type="password" name="password" id="password" placeholder="password">
+            <input type="password" name="password" id="password" placeholder="password" required>
             </div>
     
             <input type="submit" value="Login">
