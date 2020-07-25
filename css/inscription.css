@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Bellota', cursive;
+}
+
+body{
+    background-image: url("../img/woman-holding-two-white-and-beige-shopping-paper-bags-in-974911.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 40%;
+}
