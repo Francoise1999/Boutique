@@ -12,9 +12,58 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.main{
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgba(99, 94, 98, 0.5);
+    box-shadow: 0px 1px 5px black;
+    position: relative;
+    top: 18%;
+}
 
 .main img{
     width: 100px;
     border-radius: 50%;
     margin: 0 40%;
+}
+.username, .password{
+    margin: 20px 0;
+    width: 100%;
+}
+
+.username input, .password input, .mail input, .conf-password input{
+    padding: 4px 15px;
+    font-size: 18px;
+    border: 0;;
+    border-bottom: 1px solid black;
+    background-color: rgba(70, 66, 69, 0.1);
+    width: 92%;
+    color: black;
+}
+.username i, .password i{
+    font-size: 19px;
+    padding-right: 1px;
+}
+
+input[type="submit"]{
+    border: 0px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(252, 85, 188, 0.3);
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    outline: unset;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+    transition: 1.3s;
+    text-decoration: underline;
 }

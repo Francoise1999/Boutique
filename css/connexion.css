@@ -53,6 +53,11 @@ body{
     color: black;
 }
 
+/* input:focus{
+    outline:  2px solid;
+    outline-color:rgba(252, 85, 188, 0.3);
+} */
+
 .username i, .password i{
     font-size: 19px;
     padding-right: 1px;
