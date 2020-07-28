@@ -55,7 +55,7 @@ input[type="submit"]{
     padding: 10px 20px;
     border-radius: 20px;
     background-color: rgba(252, 85, 188, 0.3);
-    margin: 0 auto;
+    margin: 20px auto;
     width: 100%;
     text-align: center;
     color: white;
@@ -65,5 +65,12 @@ input[type="submit"]:hover{
     background-color: white;
     color: black;
     transition: 1.3s;
+    text-decoration: underline;
+}
+.login-here{
+    color: #fff;
+    text-decoration: none;
+}
+.login-here:hover{
     text-decoration: underline;
 }

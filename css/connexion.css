@@ -113,8 +113,9 @@ input[type="submit"]:hover{
     font-size: 30px;
     text-align: center;
     position: relative;
-    top: 30%;
-    padding-top: 60px;
+    top: 12%;
+    padding-top: 60px; */
+    /* margin-top: 200px; */
 }
 
 .social i{
