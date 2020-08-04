@@ -9,29 +9,35 @@
         <title>Connexion</title>
     </head>
     <body>
-        <div class="main">
-            <img src="./img/shopping-1400845_640.png" alt="">
-            <form action="subscribe.php" method="POST">
-                <div class="username">
-                    <i class="fas fa-user-alt"></i>
-                    <input type="text" name="username" id="username" placeholder="username" required>
+        <div class="container">
+            <div class="main">
+                <img src="./img/shopping-1400845_640.png" alt="">
+                <form action="subscribe.php" method="POST">
+                    <div class="username">
+                        <i class="fas fa-user-alt"></i>
+                        <input type="text" name="username" id="username" placeholder="username" required>
+                    </div>
+                    <div class="email">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="password">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="password" id="password" placeholder="password" required>
+                    </div>
+                    <div class="conf-password">
+                        <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="conf-password" placeholder="password" required>
                 </div>
-                <div class="email">
-                    <i class="far fa-envelope"></i>
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                </div>
-                <div class="password">
-                     <i class="fas fa-lock"></i>
-                    <input type="password" name="password" id="password" placeholder="password" required>
-                </div>
-                <div class="conf-password">
-                    <i class="fas fa-lock"></i>
-                   <input type="password" name="password" id="conf-password" placeholder="password" required>
-               </div>
-               <input type="submit" value="Sign up">
-               <p class="already">Already have an account.<a href="connexion.html" class="login-here">Login here</a></p>
-            </form>
-        </div>
-        
+                <input type="submit" value="Sign up">
+                <p class="already">Already have an account.<a href="connexion.html" class="login-here">Login here</a></p>
+                </form>
+            </div>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>       
     </body>
 </html>

@@ -12,17 +12,23 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
 .main{
     padding: 10px 30px;
     border: 0;
     border-radius: 10px;
     width: 400px;
     height: 500px;
-    margin: 0 auto;
     background-color: rgba(99, 94, 98, 0.5);
     box-shadow: 0px 1px 5px black;
-    position: relative;
-    top: 18%;
 }
 
 .main img{
@@ -35,7 +41,7 @@ body{
     width: 100%;
 }
 
-.username input, .password input, .mail input, .conf-password input{
+.username input, .password input, .email input, .conf-password input{
     padding: 4px 15px;
     font-size: 18px;
     border: 0;;
@@ -73,4 +79,32 @@ input[type="submit"]:hover{
 }
 .login-here:hover{
     text-decoration: underline;
+}
+.social{
+    font-size: 30px;
+    text-align: center;
+    /* position: relative; */
+    top: 12%;
+    padding-top: 60px;
+    /* margin-top: 200px; */
+}
+
+.social i{
+    margin: 0 15px;
+    padding: 20px;
+    border-radius: 50%;
+    /* background-color: #fff;
+    color: #000; */
+}
+
+
+
+.social i:hover{
+    transform: translate(0, -20px);
+    transition: 0.1s;
+}
+
+.social i:active{
+    color: white;
+    transition: 0s;
 }
