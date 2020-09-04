@@ -10,11 +10,9 @@
 
         $req = "SELECT * FROM user WHERE (username = '".$username."' AND password = '".$password."')";
         $res = $bdd->query($req);
-
         $user = $res->fetch();
 
         if($user) {
-
             session_start();
             $_SESSION['id'] = $user[0];
             $_SESSION['username'] = $user[1];
@@ -27,5 +25,4 @@
     } catch (PDOException $e) {
         echo "Une erreur s'est produite " . $e->getMessage();
     }
-
 ?>
