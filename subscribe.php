@@ -9,8 +9,9 @@ try {
     $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $req = "INSERT INTO user(username, password, email) VALUES ('".$username."','".$password."','".$email."')";
     $res = $bdd->exec($req);
-    header("Location:/Boutique/Boutique/connexion.html?subscribe=1");
+    header("Location:/Boutique/connexion.php?subscribe=1");
 } catch (PDOException $e) {
     echo "Une erreur s'est produite " . $e->getMessage();
+    header("Location:/Boutique/connexion.php?subscribe=0");
 }
 ?>

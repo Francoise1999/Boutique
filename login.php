@@ -25,7 +25,7 @@
 
             header("Location:/Boutique/Boutique/");
         } else {
-            header("Location:/Boutique/Boutique/connexion.html?error=1");
+            header("Location:/Boutique/Boutique/connexion.php?error=1");
         }
 
     } catch (PDOException $e) {
