@@ -10,7 +10,7 @@ body{
     background-image: url("../img/woman-holding-two-white-and-beige-shopping-paper-bags-in-974911.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .container{
     display: flex;
@@ -26,7 +26,7 @@ body{
     border: 0;
     border-radius: 10px;
     width: 400px;
-    height: 500px;
+    /* height: 500px; */
     background-color: rgba(99, 94, 98, 0.5);
     box-shadow: 0px 1px 5px black;
 }
@@ -40,7 +40,17 @@ body{
     margin: 20px 0;
     width: 100%;
 }
+.input-field label {
+    color: #000;
+}
 
+.input-field .prefix {
+    color: #ebd9e1;
+}
+
+.remember-div p label span, .remember-div p label input {
+    color: #000000;
+}
 .username input, .password input, .email input, .conf-password input{
     padding: 4px 15px;
     font-size: 18px;

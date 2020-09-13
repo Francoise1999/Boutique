@@ -65,6 +65,11 @@ if(isset($_GET['subscribe'])){
                             </p>
 
                         </div>
+                        <div class="row">
+                            <button class="btn waves-effect waves-light col s12" type="submit" name="action">Sign up
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
                     </form>
 
                 </div>
